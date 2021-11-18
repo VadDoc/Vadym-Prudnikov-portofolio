@@ -1,15 +1,16 @@
 .header {
+  position: fixed;
+  right: 30px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  height: 80px;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: #b3fab3;
+  top: 50%;
+  opacity: 1;
+  transition: opacity .3s;
+  -webkit-transition: opacity .3s;
+  transform: translateY(-50%);
+  z-index: 10;
 }
 
 @media(max-width: 600px) {
-  .header {
-    padding-left: 5%;
-    padding-right: 5%;  }
+
 }

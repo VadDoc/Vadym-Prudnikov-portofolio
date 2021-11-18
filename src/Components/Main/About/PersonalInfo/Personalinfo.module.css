@@ -1,0 +1,73 @@
+.personalInfo {
+
+}
+
+.title {
+
+}
+
+.title h3 {
+    padding-bottom: 22px;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.avatar {
+    display: none;
+}
+
+.imgMobile {
+
+}
+
+.container {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.infoItems {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Open Sans",sans-serif;
+    padding-left: 0;
+    list-style: none;
+}
+
+.infoItems li {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.infoItems li:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.itemTitle {
+    opacity: .8;
+    text-transform: capitalize;
+}
+
+.itemValue {
+    font-weight: 700;
+}
+
+/*.itemValue a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.itemValue a:hover {*/
+/*    color: white;*/
+/*}*/
+
+@media(max-width: 900px) {
+
+}
+
+@media(max-width: 600px) {
+    .avatar {
+        display: block;
+    }
+}

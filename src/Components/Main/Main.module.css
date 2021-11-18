@@ -1,3 +1,7 @@
 .main {
-    background-color: #f8b4b4;
+    overflow: hidden;
+}
+
+.main>div {
+    position: relative;
 }

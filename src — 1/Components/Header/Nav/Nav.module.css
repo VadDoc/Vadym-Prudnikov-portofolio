@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.navItem {
+    margin-left: 20px;
+}
+
+@media(max-width: 900px) {
+    .nav {
+        width: 80%;
+    }
+}
+
+@media(max-width: 600px) {
+    .nav {
+        width: 100%;
+    }
+
+    .navItem {
+        margin: 0 auto;
+    }
+}

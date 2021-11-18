@@ -3,25 +3,34 @@ import {NavLink} from "react-router-dom";
 
 export const Nav = () => {
   return (
-    <div className={styles.nav}>
-      <div className={styles.navItem}>
-        <NavLink to="/home" activeClassName={styles.active}>Home</NavLink>
-      </div>
-      <div className={styles.navItem}>
-        <NavLink to="/skills" activeClassName={styles.active}>Skills</NavLink>
-      </div>
-      <div className={styles.navItem}>
-        <NavLink to="/projects" activeClassName={styles.active}>Projects</NavLink>
-      </div>
-      <div className={styles.navItem}>
-        <NavLink to="/contacts" activeClassName={styles.active}>Contacts</NavLink>
-      </div>
+    <>
+        <ul className={styles.nav}>
+          <NavLink to="/home" activeClassName={styles.active}>
+          <li className={styles.navItem}>
+            <i className={styles.logoHome} />
+            <h2>Home</h2>
+          </li>
+          </NavLink>
+          <NavLink to="/about" activeClassName={styles.active}>
+            <li className={styles.navItem}>
+              <i className={styles.logoHome} />
+              <h2>About</h2>
+            </li>
+          </NavLink>
+          <NavLink to="/projects" activeClassName={styles.active}>
+            <li className={styles.navItem}>
+              <i className={styles.logoHome} />
+              <h2>Projects</h2>
+            </li>
+          </NavLink>
+          <NavLink to="/contacts" activeClassName={styles.active}>
+            <li className={styles.navItem}>
+              <i className={styles.logoHome} />
+              <h2>Contacts</h2>
+            </li>
+          </NavLink>
+        </ul>
 
-      {/*<a href={'/'}>Main</a>*/}
-      {/*<a href={'/'}>Main</a>*/}
-      {/*<a href={'/'}>Main</a>*/}
-      {/*<a href={'/'}>Main</a>*/}
-
-    </div>
+    </>
   )
 }
