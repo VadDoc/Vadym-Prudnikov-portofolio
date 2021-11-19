@@ -5,12 +5,12 @@ export const Nav = () => {
   return (
     <>
         <ul className={styles.nav}>
-        {/*  <NavLink to="/home" activeClassName={styles.active}>*/}
-        {/*  <li className={styles.navItem}>*/}
-        {/*    <i className={styles.logoHome} />*/}
-        {/*    <h2>Home</h2>*/}
-        {/*  </li>*/}
-        {/*  </NavLink>*/}
+          <NavLink to="/home" activeClassName={styles.active}>
+          <li className={styles.navItem}>
+            <i className={styles.logoHome} />
+            <h2>Home</h2>
+          </li>
+          </NavLink>
           <NavLink to="/about" activeClassName={styles.active}>
             <li className={styles.navItem}>
               <i className={styles.logoHome} />
