@@ -26,9 +26,6 @@
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    /*margin-top: calc(var(--bs-gutter-y)*-1);*/
-    /*margin-right: calc(var(--bs-gutter-x)*-0.5);*/
-    /*margin-left: calc(var(--bs-gutter-x)*-0.5);*/
 }
 
 .mainPhoto {
@@ -47,14 +44,12 @@
     top: 40px;
     box-shadow: 0 0 7px rgba(0,0,0,.9);
     max-width: 100%;
-    /*margin-top: var(--bs-gutter-y);*/
 }
 
 .homeDetails {
     flex: 0 0 auto;
     width: 66.66666667%;
     margin-left: 33.33333333%;
-    /*margin-top: var(--bs-gutter-y);*/
     max-width: 100%;
     text-align: left;
 }
@@ -198,6 +193,5 @@
 
     .text {
         text-align: center;
-        /*jj*/
     }
 }
