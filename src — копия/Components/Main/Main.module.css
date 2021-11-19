@@ -1,0 +1,7 @@
+.main {
+    overflow: hidden;
+}
+
+.main>div {
+    position: relative;
+}
