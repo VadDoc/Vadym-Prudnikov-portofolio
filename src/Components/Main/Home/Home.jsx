@@ -18,7 +18,7 @@ export const Home = () => {
             <div>
               <img className={styles.imgMobile} src={`${mainPhotoMobile}`} alt="avatar"/>
               <h1 className={styles.title}>
-                I'm vadym prudnirov.
+                I'm vadym prudnikov.
                 <span>
                   react developer<br/>
                   <span>
@@ -33,7 +33,7 @@ export const Home = () => {
                 am passionate about building excellent software that improves
                 the lives of those around me.
               </p>
-              <NavLink to="/skills" activeClassName={styles.active}>
+              <NavLink to="/about" activeClassName={styles.active}>
                 <button className={styles.button}>
                   <span className={styles.buttonText}>more about me</span
                   ><span className={styles.buttonIcon}>x</span>
