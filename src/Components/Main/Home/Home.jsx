@@ -1,6 +1,6 @@
 import styles from './Home.module.css'
-import mainPhoto from './../../../images/mainPhoto.jpeg'
-import mainPhotoMobile from './../../../images/mainPhotoMobile.jpeg'
+import mainPhoto from './../../../images/vaddoc4.png'
+import mainPhotoMobile from './../../../images/vaddoc4.png'
 import {NavLink} from "react-router-dom";
 
 
