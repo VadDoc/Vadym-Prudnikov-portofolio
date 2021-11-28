@@ -1,0 +1,360 @@
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+
+.colorBlock {
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+    background-color: #ffb400;
+}
+
+.detailsContainer {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /*margin-top: 0;*/
+    /*margin-right: 0;*/
+    /*margin-left: 0;*/
+}
+
+.mainPhoto {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    position: fixed;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: calc(100vh - 80px);
+    z-index: 11;
+    border-radius: 30px;
+    left: 40px;
+    top: 40px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .9);
+    max-width: 100%;
+    /*margin-top: 0;*/
+}
+
+.homeDetails {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    margin-left: 33.33333333%;
+    /*margin-top: 0;*/
+    max-width: 100%;
+    text-align: left;
+}
+
+.homeDetails > div {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.imgMobile {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.title {
+    font-size: 51px;
+    line-height: 62px;
+    font-weight: 700;
+    margin: 18px 0 10px;
+    position: relative;
+    padding-left: 50px;
+    color: #ffb400;
+    text-transform: uppercase;
+    font-family: 'Poppins Bold', sans-serif;
+}
+
+.title span {
+    color: #fff;
+    display: block;
+}
+
+.title span span {
+    font-size: 40px;
+}
+
+.title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 29px;
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #ffb400;
+}
+
+.text {
+    margin: 15px 0 28px;
+    font-size: 16px;
+    line-height: 35px;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+}
+
+/*.button {*/
+/*    overflow: hidden;*/
+/*    display: inline-block;*/
+/*    line-height: 1.4;*/
+/*    border-radius: 35px;*/
+/*    white-space: nowrap;*/
+/*    text-overflow: ellipsis;*/
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+/*    vertical-align: middle;*/
+/*    -webkit-user-select: none;*/
+/*    -ms-user-select: none;*/
+/*    user-select: none;*/
+/*    transition: all .25s ease-in-out;*/
+/*    text-transform: uppercase;*/
+/*    text-decoration: none!important;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*    padding: 16px 70px 16px 35px;*/
+/*    font-size: 15px;*/
+/*    font-weight: 600;*/
+/*    color: #fff;*/
+/*    background-color: transparent;*/
+/*    border: 1px solid #ffb400;*/
+/*    outline: none!important;*/
+/*}*/
+
+/*.button:hover {*/
+/*    background-color: #ffb400;*/
+/*}*/
+
+/*.button .buttonText {*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*    color: #fff;*/
+/*    transition: all 0.3s ease-out;*/
+/*}*/
+
+/*.buttonIcon {*/
+/*    position: absolute;*/
+/*    right: -1px;*/
+/*    top: -1px;*/
+/*    bottom: 0;*/
+/*    width: 55px;*/
+/*    height: 55px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-size: 19px;*/
+/*    color: #fff;*/
+/*    border-radius: 50%;*/
+/*    background-color: #ffb400;*/
+/*}*/
+
+@media (max-width: 1600px) {
+    .homeDetails > div {
+        max-width: 600px;
+    }
+
+    .title {
+        font-size: 46px;
+    }
+
+    .title span span {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .homeDetails > div {
+        max-width: 570px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .title span span {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .homeDetails > div {
+        max-width: 530px;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .title span span {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .homeDetails > div {
+        max-width: 480px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .title span span {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .homeDetails {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .homeDetails > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+        height: 100vh;
+    }
+
+    .colorBlock,
+    .mainPhoto {
+        display: none;
+    }
+
+    .imgMobile {
+        display: block;
+        border-radius: 50%;
+        width: 270px;
+        height: 270px;
+        border: 4px solid #252525;
+        margin: 0 auto 25px;
+    }
+
+    .title {
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .title:before {
+        top: 23px;
+        width: 30px;
+    }
+
+    .text {
+        text-align: center;
+        margin: 15px 0;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .homeDetails > div {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 60px;
+        height: 100vh;
+    }
+
+    .imgMobile {
+        width: 230px;
+        height: 230px;
+        margin: 0 auto 20px;
+    }
+
+    .title {
+        font-size: 31px;
+        line-height: 40px;
+    }
+
+    .title:before {
+        left: 5px;
+        top: 19px;
+        width: 25px;
+    }
+
+    .title span span {
+        font-size: 25px;
+    }
+
+
+    .text {
+        margin: 10px 0;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 500px) {
+    .detailsContainer {
+        padding: 50px 0;
+    }
+    .detailsContainer,
+    .homeDetails > div {
+        height: auto;
+    }
+    .title {
+        font-size: 26px;
+    }
+
+    .title:before {
+        left: 15px;
+        top: 19px;
+        width: 20px;
+    }
+
+    .title span span {
+        font-size: 20px;
+    }
+
+    .text {
+        margin: 10px 0;
+        line-height: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 24px;
+        padding-left: 0;
+        line-height: 32px;
+    }
+
+    .title:before {
+        display: none;
+        left: 15px;
+        top: 19px;
+        width: 20px;
+    }
+
+    .title span span {
+        font-size: 18px;
+    }
+
+    .text {
+        margin: 10px 0;
+        line-height: 20px;
+        font-size: 15px;
+    }
+}

@@ -2,6 +2,7 @@ import './App.css';
 import {Header} from "./Components/Header/Header";
 import {Main} from "./Components/Main/Main";
 import {BrowserRouter} from "react-router-dom";
+import Cursor from './Cursor';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="App">
         <Header/>
         <Main/>
+        <Cursor />
       </div>
     </BrowserRouter>
   );

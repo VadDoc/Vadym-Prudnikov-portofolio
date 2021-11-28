@@ -1,25 +1,29 @@
-import styles from './Projects.module.css'
-import commonStyles from "../../../Common/styles/Styles.module.css";
-import {Project} from "./Project/Project";
+import styles from './Projects.module.scss'
 import {Title} from "../../common/Title/Title";
+import {projects} from "../../../assets/content/content"
 
 export const Projects = () => {
-  const projectsData = [
-    {id: '1', link: 'link1', title: 'Social network', text: 'description1'},
-    {id: '2', link: 'link2', title: 'Todolist', text: 'description2'},
-    {id: '3', link: 'link3', title: 'Counter', text: 'description3'},
-  ]
-
-  const titleText = ['my', 'projects', 'works']
-
   return (
     <div className={styles.projects}>
-      {/*<div className={`${commonStyles.mainContainer} ${styles.container}`}>*/}
-      <Title text={titleText}/>
-      {/*<div className={styles.wrapper}>*/}
-      {/*  {projectsData.map(project => <Project key={project.id} project={project}/>)}*/}
-      {/*</div>*/}
-      {/*</div>*/}
+      <Title text={projects.titleText}/>
+      <div className={styles.container}>
+        <ul className={styles.wrapper}>
+          {projects.myProjects.map(pr => (
+            <li className={styles.project} key={pr.id}>
+              <figure style={{backgroundImage: `url(${pr.img})`}}>
+                <div className={styles.hoverContent}>
+                  <div className={styles.projectInfo}>
+                    <h3>{pr.title}</h3>
+                    <p>Link : <a href={pr.siteLink} target="_blank">{pr.siteName}</a></p>
+                    <p>Code : <a href={pr.codeLink} target="_blank">{pr.codeName}</a></p>
+                    <p>Languages & technologies : <span>{pr.languages}</span></p>
+                  </div>
+                </div>
+              </figure>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }

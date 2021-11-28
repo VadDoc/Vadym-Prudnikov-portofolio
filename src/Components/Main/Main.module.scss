@@ -1,0 +1,11 @@
+.main {
+    overflow: hidden;
+
+    >div {
+        position: relative;
+    }
+
+    @media (max-width: 1000px) {
+        padding-bottom: 60px;
+    }
+}

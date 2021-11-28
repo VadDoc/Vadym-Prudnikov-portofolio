@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Poppins';
-    src: url('fonts/Poppins/Poppins-Regular.ttf');
+    src: url('assets/fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Poppins Bold';
-    src: url('fonts/Poppins/Poppins-Bold.ttf');
+    src: url('assets/fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
     font-family: 'Poppins Extra Bold';
-    src: url('fonts/Poppins/Poppins-ExtraBold.ttf');
+    src: url('assets/fonts/Poppins/Poppins-ExtraBold.ttf');
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
+    src: url('assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf');
 }
 
 *,
@@ -95,8 +95,6 @@ p {
     margin-bottom: 1rem;
 }
 
-
-
 img,
 svg {
     vertical-align: middle;
@@ -124,5 +122,49 @@ textarea {
 button,
 select {
     text-transform: none;
+}
+
+
+
+* {
+    cursor: none;
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 33;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ffb400;
+}
+
+.cursor-dot-outline {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 180, 0, 0.5);
+}
+
+
+@media(max-width: 1000px) {
+    .cursor-dot,
+    .cursor-dot-outline {
+        display: none;
+    }
+
+    * {
+        cursor: auto;
+    }
 }
 
