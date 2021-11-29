@@ -111,7 +111,7 @@ export const about = {
     {id: v1(), title: 'GitHub: ', value: [<a href="https://github.com/VadDoc/">github.com</a>]},
     {id: v1(), title: 'Languages: ', value: ['Ukrainian, Russian,', 'English (intermediate)']},
   ],
-  allSkills: 'React / Redux / JavaScript / TypeScript / Thunk / Flux / Selectors / Hooks / Axios / Rest API / Redux-form / ' +
+  allSkills: 'React / Redux / JavaScript / TypeScript / Thunk / Flux / Selectors / Hooks / Axios / React-router / Rest API / Redux-form / ' +
     ' Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
   mySkills: [
     {name: 'React', per: 67},
@@ -119,30 +119,29 @@ export const about = {
     {name: 'TypeScript', per: 62},
     {name: 'JavaScript', per: 55},
     {name: 'Axios', per: 65},
+    {name: 'Redux-form', per: 73},
+    {name: 'Formik', per: 56},
     {name: 'Storybook', per: 55},
     {name: 'Unit Testing', per: 45},
-    // {name: 'HTML', per: 100},
-    {name: 'Material UI', per: 48},
-
-    {name: 'AJAX', per: 68},
-    {name: 'Git', per: 45},
-    {name: 'JSON', per: 73},
-    {name: 'NODEJS', per: 35},
+    {name: 'Material UI', per: 68},
+    {name: 'Ant Design', per: 53},
+    // {name: 'JSON', per: 73},
+    // {name: 'NODEJS', per: 35},
     // {name: 'HTML', per: 100},
     // {name: 'CSS', per: 10},
     // {name: 'HTML', per: 100},
 
     {name: 'Wordpress', per: 51},
-    {name: 'SASS', per: 58},
-    {name: 'LESS', per: 55},
-    {name: 'SCSS', per: 69},
+    // {name: 'SASS', per: 58},
+    // {name: 'LESS', per: 55},
+    // {name: 'SCSS', per: 69},
     {name: 'Bootstrap', per: 72},
-    {name: 'CSS', per: 95},
-    {name: 'HTML', per: 99},
-
-
-    {name: 'MySQL', per: 23},
-    {name: 'Photoshop', per: 45},
+    {name: 'CSS & preprocessing', per: 95},
+    {name: 'HTML5', per: 99},
+    {name: 'Git', per: 45},
+    //
+    // {name: 'MySQL', per: 23},
+    // {name: 'Photoshop', per: 45},
     // {name: 'CSS', per: 95},
     // {name: 'HTML', per: 99},
   ]
@@ -159,9 +158,20 @@ export const projects = {
       siteLink: 'https://vaddoc.github.io/Social-Network/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Social-Network',
-      languages: ' React / Redux / Thunk / TypeScript / Axios / Rest API / Redux-form / ' +
-        ' Unit Test / Storybook / SCSS / HTML',
+      languages: ' React / Redux / Thunk / TypeScript / Axios / Rest API / Redux-form / React-router ' +
+        ' Unit Test / Storybook / SCSS / HTML / NodeJS / Git',
     },
+    // {
+    //   id: v1(),
+    //   title: 'Todolist',
+    //   img: socialImg,
+    //   siteName: 'Todolist',
+    //   siteLink: 'https://vaddoc.github.io/Social-Network/',
+    //   codeName: 'github.com',
+    //   codeLink: 'https://github.com/VadDoc/Social-Network',
+    //   languages: ' React / Redux / Thunk / TypeScript / Axios / Rest API / Redux-form / React-router / ' +
+    //     ' Unit Test / Storybook / SCSS / HTML / Git',
+    // },
     {
       id: v1(),
       title: 'Portfolio',
@@ -170,7 +180,7 @@ export const projects = {
       siteLink: 'https://vaddoc.github.io/Vadym-Prudnikov-portofolio/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Vadym-Prudnikov-portofolio',
-      languages: 'React / JavaScript / Fontawesome / SCSS / HTML '
+      languages: 'React / JavaScript / React-router / Fontawesome / SCSS / HTML / NodeJS / Git / Photoshop'
     },
     {
       id: v1(),
@@ -180,8 +190,7 @@ export const projects = {
       siteLink: 'https://vaddoc.github.io/Counter/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Counter',
-      languages: 'React / Redux / Thunk / JavaScript / TypeScript / Axios / Rest API / Redux-form / ' +
-        'Formik / Material UI / Ant Design / Unit Test / Storybook / SCSS / HTML',
+      languages: 'React / Redux / TypeScript / CSS / HTML / NodeJS / Git',
     },
     {
       id: v1(),
@@ -191,7 +200,7 @@ export const projects = {
       siteLink: 'http://royalua.s57.yourdomain.com.ua/en/glavnaya-stranicza-english/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Social-Network',
-      languages: 'Wordpress / JavaScript / HTML / CSS / PHP / AJAX / JSON',
+      languages: 'Wordpress / JavaScript / HTML / CSS / PHP / AJAX / JSON / Git / MySQL / Photoshop',
     },
     {
       id: v1(),
@@ -201,7 +210,7 @@ export const projects = {
       siteLink: 'https://promalp-group.com/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Social-Network',
-      languages: 'Wordpress / JavaScript / HTML / CSS / PHP / AJAX / JSON',
+      languages: 'Wordpress / JavaScript / HTML / CSS / PHP / AJAX / JSON / Git / MySQL / Photoshop',
     },
     {
       id: v1(),
@@ -211,7 +220,7 @@ export const projects = {
       siteLink: 'https://pearlspa.com.ua/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Social-Network',
-      languages: 'Wordpress / JavaScript / HTML / CSS / PHP / AJAX / JSON',
+      languages: 'Wordpress / JavaScript / HTML / CSS / PHP / AJAX / JSON / Git / MySQL / Photoshop',
     },
     {
       id: v1(),
@@ -221,7 +230,7 @@ export const projects = {
       siteLink: 'https://zemelnij-advokat.ru/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Social-Network',
-      languages: 'Wordpress / JavaScript / HTML / CSS / PHP / AJAX / JSON',
+      languages: 'Wordpress / JavaScript / HTML / CSS / PHP / AJAX / JSON / Git / MySQL / Photoshop',
     },
   ]
 }
