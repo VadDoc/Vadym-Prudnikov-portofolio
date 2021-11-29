@@ -5,6 +5,7 @@ export const Skills = () => {
   return (
     <div className={styles.skills}>
       <h3 className={styles.title}>My skills</h3>
+      <div className={styles.allSkills}><span>I use in my practice following skills and technologies: {about.allSkills}</span></div>
 
       {about.mySkills.map(sk => (
         <div className={styles.skill} key={sk.name}>

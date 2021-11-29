@@ -77,6 +77,8 @@
       }
 
       .position {
+        display: flex;
+        justify-content: space-between;
         font-size: 18px;
         font-weight: 500;
         line-height: 1.2;
@@ -90,8 +92,9 @@
         font-weight: 600;
         font-size: 15px;
         position: relative;
-        padding-left: 26px;
+        padding-left: 25px;
         font-family: "Open Sans", sans-serif;
+        text-align: justify;
       }
 
       .text {
@@ -99,6 +102,7 @@
         color: #eee;
         font-size: 14px;
         font-family: "Open Sans", sans-serif;
+        text-align: justify;
 
         &::after {
           content: "";

@@ -45,7 +45,7 @@ export const about = {
       time: '2021-present',
       position: 'React / Javascript / Frontend Developer',
       place: 'Freelance',
-      text: 'Website creation, upgrade and website optimization - React / Redux / Thunk / JavaScript / TypeScript / Axios / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / WordPress / PHP / Bootstrap / Grid / Flexbox / SCSS / SASS / module CSS / CSS3 / HTML5 / Git'
+      text: 'Website creation, upgrade and optimization - React / Redux / Thunk / JavaScript / TypeScript / Axios / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / WordPress / PHP / Bootstrap / Grid / Flexbox / SCSS / SASS / module CSS / CSS3 / HTML5 / Git'
     },
     {
       id: v1(),
@@ -112,7 +112,7 @@ export const about = {
     {id: v1(), title: 'Languages: ', value: ['Ukrainian, Russian,', 'English (intermediate)']},
   ],
   allSkills: 'React / Redux / JavaScript / TypeScript / Thunk / Flux / Selectors / Hooks / Axios / Rest API / Redux-form / ' +
-    ' Formik / Material UI / Ant Design / Unit Test / Storybook / Grid / Flexbox / SCSS / SASS / module CSS / CSS3 / HTML5 / Git',
+    ' Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
   mySkills: [
     {name: 'React', per: 67},
     {name: 'Redux', per: 82},
