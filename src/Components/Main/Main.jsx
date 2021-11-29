@@ -14,6 +14,5 @@ export const Main = () => {
         <Route path='/contacts' render={() => <Contacts name="Contacts" />} />
         <Redirect from='/' to='/home' />
       </div>
-
   )
 }

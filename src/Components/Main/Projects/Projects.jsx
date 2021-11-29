@@ -14,8 +14,8 @@ export const Projects = () => {
                 <div className={styles.hoverContent}>
                   <div className={styles.projectInfo}>
                     <h3>{pr.title}</h3>
-                    <p>Link : <a href={pr.siteLink} target="_blank">{pr.siteName}</a></p>
-                    <p>Code : <a href={pr.codeLink} target="_blank">{pr.codeName}</a></p>
+                    <p>Demo : <a href={pr.siteLink} target="_blank">{pr.siteName}</a></p>
+                    <p>Sources : <a href={pr.codeLink} target="_blank">{pr.codeName}</a></p>
                     <p>Languages & technologies : <span>{pr.languages}</span></p>
                   </div>
                 </div>

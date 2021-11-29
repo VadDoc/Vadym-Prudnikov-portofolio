@@ -29,17 +29,24 @@ export const home = {
 }
 
 export const contacts = {
+  titleText: ['get in', 'touch', 'contacts'],
   address: 'Kyiv, Ukraine',
   tel: '+380 (67) 986-48-27',
   email: 'vadprudnikov@gmail.com',
   skype: 'vaddoc@live.com',
   telegram: 'VadDomovoy',
-  titleText: ['get in', 'touch', 'contacts'],
 }
 
 export const about = {
   titleText: ['about', 'me', 'resume'],
   myExperiences: [
+    {
+      id: v1(),
+      time: '2021-present',
+      position: 'React / Javascript / Frontend Developer',
+      place: 'Freelance',
+      text: 'Website creation, upgrade and website optimization - React / Redux / Thunk / JavaScript / TypeScript / Axios / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / WordPress / PHP / Bootstrap / Grid / Flexbox / SCSS / SASS / module CSS / CSS3 / HTML5 / Git'
+    },
     {
       id: v1(),
       time: '2021-present',
@@ -104,6 +111,8 @@ export const about = {
     {id: v1(), title: 'GitHub: ', value: [<a href="https://github.com/VadDoc/">github.com</a>]},
     {id: v1(), title: 'Languages: ', value: ['Ukrainian, Russian,', 'English (intermediate)']},
   ],
+  allSkills: 'React / Redux / JavaScript / TypeScript / Thunk / Flux / Selectors / Hooks / Axios / Rest API / Redux-form / ' +
+    ' Formik / Material UI / Ant Design / Unit Test / Storybook / Grid / Flexbox / SCSS / SASS / module CSS / CSS3 / HTML5 / Git',
   mySkills: [
     {name: 'React', per: 67},
     {name: 'Redux', per: 82},
