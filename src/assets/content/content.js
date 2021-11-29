@@ -15,9 +15,9 @@ export const home = {
     "frontend developer"
   ],
   text: [
-    "I'm a React developer &amp; JavaScript developer &amp; Front‑end developer" +
+    "I'm a React & JavaScript & Front‑end developer" +
   " who has a results-focused attitude to creating SPA, using React (JS/TS), Redux." +
-  " My free time is dedicated to Codewars &amp; programming tutorials." +
+  " My free time is dedicated to Codewars & programming tutorials." +
   " I am passionate about creating excellent software that improves" +
   " the lives of the people around me.",
     "Ready to consider project work and full-time employment."
@@ -43,9 +43,9 @@ export const about = {
     {
       id: v1(),
       time: '2021-present',
-      position: 'React / Javascript / Frontend Developer',
+      position: 'React / Javascript / Front-end Developer',
       place: 'Freelance',
-      text: 'Website creation, upgrade and optimization - React / Redux / Thunk / JavaScript / TypeScript / Axios / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / WordPress / PHP / Bootstrap / Grid / Flexbox / SCSS / SASS / module CSS / CSS3 / HTML5 / Git'
+      text: 'Website creation, upgrade, optimization, fix bugs - React / Redux / Thunk / JavaScript / TypeScript / Axios / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / WordPress / PHP / Bootstrap / Grid / Flexbox / SCSS / SASS / module CSS / CSS3 / HTML5 / Git'
     },
     {
       id: v1(),
@@ -111,39 +111,24 @@ export const about = {
     {id: v1(), title: 'GitHub: ', value: [<a href="https://github.com/VadDoc/">github.com</a>]},
     {id: v1(), title: 'Languages: ', value: ['Ukrainian, Russian,', 'English (intermediate)']},
   ],
-  allSkills: 'React / Redux / JavaScript / TypeScript / Thunk / Flux / Selectors / Hooks / Axios / React-router / Rest API / Redux-form / ' +
-    ' Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
+  allSkills: 'React / Redux / JavaScript / TypeScript / Thunk / Flux / Reselect / Hooks / Axios / React-router / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / Fontawesome / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
   mySkills: [
-    {name: 'React', per: 67},
-    {name: 'Redux', per: 82},
-    {name: 'TypeScript', per: 62},
-    {name: 'JavaScript', per: 55},
-    {name: 'Axios', per: 65},
-    {name: 'Redux-form', per: 73},
-    {name: 'Formik', per: 56},
-    {name: 'Storybook', per: 55},
-    {name: 'Unit Testing', per: 45},
-    {name: 'Material UI', per: 68},
-    {name: 'Ant Design', per: 53},
-    // {name: 'JSON', per: 73},
-    // {name: 'NODEJS', per: 35},
-    // {name: 'HTML', per: 100},
-    // {name: 'CSS', per: 10},
-    // {name: 'HTML', per: 100},
-
-    {name: 'Wordpress', per: 51},
-    // {name: 'SASS', per: 58},
-    // {name: 'LESS', per: 55},
-    // {name: 'SCSS', per: 69},
-    {name: 'Bootstrap', per: 72},
-    {name: 'CSS & preprocessing', per: 95},
-    {name: 'HTML5', per: 99},
-    {name: 'Git', per: 45},
-    //
-    // {name: 'MySQL', per: 23},
-    // {name: 'Photoshop', per: 45},
-    // {name: 'CSS', per: 95},
-    // {name: 'HTML', per: 99},
+    {id:v1(), name: 'React', per: 72},
+    {id:v1(), name: 'Redux', per: 82},
+    {id:v1(), name: 'TypeScript', per: 62},
+    {id:v1(), name: 'JavaScript', per: 55},
+    {id:v1(), name: 'Axios', per: 85},
+    {id:v1(), name: 'Redux-form', per: 73},
+    {id:v1(), name: 'Formik', per: 56},
+    {id:v1(), name: 'Storybook', per: 55},
+    {id:v1(), name: 'Unit Testing', per: 45},
+    {id:v1(), name: 'Material UI', per: 68},
+    {id:v1(), name: 'Ant Design', per: 53},
+    {id:v1(), name: 'Wordpress', per: 71},
+    {id:v1(), name: 'Bootstrap', per: 82},
+    {id:v1(), name: 'CSS & preprocessing', per: 91},
+    {id:v1(), name: 'HTML5', per: 99},
+    {id:v1(), name: 'Git', per: 45},
   ]
 }
 
@@ -158,7 +143,7 @@ export const projects = {
       siteLink: 'https://vaddoc.github.io/Social-Network/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Social-Network',
-      languages: ' React / Redux / Thunk / TypeScript / Axios / Rest API / Redux-form / React-router ' +
+      languages: ' React / Redux / Thunk / TypeScript / Axios / Rest API / Reselect / Redux-form / React-router ' +
         ' Unit Test / Storybook / SCSS / HTML / NodeJS / Git',
     },
     // {

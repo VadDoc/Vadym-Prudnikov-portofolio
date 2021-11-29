@@ -8,7 +8,7 @@ export const Skills = () => {
       <div className={styles.allSkills}><span>I use in my practice following languages, skills and technologies: {about.allSkills}</span></div>
 
       {about.mySkills.map(sk => (
-        <div className={styles.skill} key={sk.name}>
+        <div className={styles.skill} key={sk.id}>
           <div className={styles.skillWrapper}>
             <span>{sk.per}%</span>
             <div className={styles.slice}
