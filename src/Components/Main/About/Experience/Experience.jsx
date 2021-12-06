@@ -6,7 +6,7 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 export const Experience = () => {
   return (
     <div className={styles.experiences}>
-      <h3 className={styles.title}>Experience & education</h3>
+      <h3 className={styles.title}>Experience</h3>
       <ul className={styles.experiencesWrapper}>
         {about.myExperiences.map(exp => (
           <li className={styles.experience} key={exp.id}>

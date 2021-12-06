@@ -10,12 +10,11 @@ import portfolioImg from '../images/portfolio.png'
 export const home = {
   title: [
     "I'm vadym prudnikov.",
-    "react developer",
-    "javascript developer",
-    "frontend developer"
+    "front-end developer",
+    "react / javascript",
   ],
   text: [
-    "I'm a React & JavaScript & Front‑end developer" +
+    "I'm a Front‑end developer (React / JavaScript)" +
   " who has a results-focused attitude to creating SPA, using React (JS/TS), Redux." +
   " My free time is dedicated to Codewars & programming tutorials." +
   " I am passionate about creating excellent software that improves" +
@@ -35,6 +34,11 @@ export const contacts = {
   email: 'vadprudnikov@gmail.com',
   skype: 'vaddoc@live.com',
   telegram: 'VadDomovoy',
+  facebook: 'https://www.facebook.com/vadprudnikov/',
+  twitter: 'https://twitter.com/Vad_Doc',
+  instagram: 'https://www.instagram.com/vadym.prudnikov/',
+  linkedin: "https://www.linkedin.com/in/vadym-prudnikov-b4b093207/",
+  github: "https://github.com/VadDoc/",
 }
 
 export const about = {
@@ -49,14 +53,6 @@ export const about = {
     },
     {
       id: v1(),
-      time: '2021-present',
-      position: 'React Developer',
-      place: 'IT INCUBATOR (Minsk, Belarus)',
-      text: 'IT Courses: React Developer, JavaScript Developer, Frontend Developer: React / Redux / Thunk / JavaScript / TypeScript / Axios / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook'
-    },
-
-    {
-      id: v1(),
       time: '2020-2021',
       position: 'Frontend Developer',
       place: 'WEBJUMP (Kyiv, Ukraine)',
@@ -64,18 +60,17 @@ export const about = {
     },
     {
       id: v1(),
-      time: '2020-2021',
-      position: 'Frontend Developer',
-      place: 'IT Courses CyberBionic Systematics (Kyiv, Ukraine)',
-      text: 'IT Courses: Frontend Developer, JavaScript Developer - JavaScript / TypeScript / Angular / Bootstrap / CSS / SCSS / SASS / HTML'
-    },
-
-    {
-      id: v1(),
-      time: '2005-2019',
+      time: '2010-2019',
       position: 'Head of the office in Ukraine',
       place: 'CMP Germed GmbH (Germany), Kyiv, Ukraine',
-      text: 'Representative office in Ukraine, head (medical tourism) '
+      text: 'Solving organizational issues, communication with clients and officials. Activity: medical tourism'
+    },
+    {
+      id: v1(),
+      time: '2005-2010',
+      position: 'Deputy head',
+      place: 'Company Leader Invest ltd, Kyiv, Ukraine',
+      text: 'Project management, communication with customers, teamwork'
     },
     {
       id: v1(),
@@ -84,7 +79,22 @@ export const about = {
       place: 'Kyiv Emergency Hospital',
       text: 'Trauma department doctor'
     },
-
+  ],
+  myEducation: [
+    {
+      id: v1(),
+      time: '2021-present',
+      position: 'React Developer',
+      place: 'IT INCUBATOR (Minsk, Belarus)',
+      text: 'IT Courses: React Developer, JavaScript Developer, Front-end Developer: React / Redux / Thunk / JavaScript / TypeScript / Axios / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook'
+    },
+    {
+      id: v1(),
+      time: '2020',
+      position: 'Front-end Developer',
+      place: 'IT Courses CyberBionic Systematics (Kyiv, Ukraine)',
+      text: 'IT Courses: Front-end Developer, JavaScript Developer - JavaScript / TypeScript / Angular / Bootstrap / CSS / SCSS / SASS / HTML'
+    },
     {
       id: v1(),
       time: '1985-1993',
@@ -99,36 +109,32 @@ export const about = {
     {id: v1(), title: 'Nationality: ', value: ['Ukrainian']},
     {id: v1(), title: 'Freelance: ', value: ['Available']},
     {id: v1(), title: 'Address: ', value: [contacts.address]},
-    {id: v1(), title: 'Phone: ', value: [<a href={`tel:${contacts.tel}`}>{contacts.tel}</a>]},
-    {id: v1(), title: 'Email: ', value: [<a href={`mailto:${contacts.email}`}>{contacts.email}</a>]},
-    {id: v1(), title: 'Telegram: ', value: [<a href="">{contacts.telegram}</a>]},
-    {id: v1(), title: 'Skype: ', value: [<a href="">{contacts.skype}</a>]},
-    {
-      id: v1(),
-      title: 'LinkedIn: ',
-      value: [<a href="https://www.linkedin.com/in/vadym-prudnikov-b4b093207/">linkedin.com</a>]
-    },
-    {id: v1(), title: 'GitHub: ', value: [<a href="https://github.com/VadDoc/">github.com</a>]},
-    {id: v1(), title: 'Languages: ', value: ['Ukrainian, Russian,', 'English (intermediate)']},
+    {id: v1(), title: 'Phone: ', value: [<a href={`tel:${contacts.tel}`} target="_blank" rel="noreferrer">{contacts.tel}</a>]},
+    {id: v1(), title: 'Email: ', value: [<a href={`mailto:${contacts.email}`} target="_blank" rel="noreferrer">{contacts.email}</a>]},
+    {id: v1(), title: 'Telegram: ', value: [<a href={`https://telegram.me/${contacts.telegram}`} target="_blank" rel="noreferrer">{contacts.telegram}</a>]},
+    {id: v1(), title: 'Skype: ', value: [<a href={`skype:${contacts.skype}?call`} target="_blank" rel="noreferrer">{contacts.skype}</a>]},
+    {id: v1(), title: 'LinkedIn: ', value: [<a href={contacts.linkedin} target="_blank" rel="noreferrer">linkedin.com</a>]},
+    {id: v1(), title: 'GitHub: ', value: [<a href={contacts.github} target="_blank" rel="noreferrer">github.com</a>]},
+    {id: v1(), title: 'Languages: ', value: ['Ukrainian, Russian,', 'English (intermediate in progress)']},
   ],
-  allSkills: 'React / Redux / JavaScript / TypeScript / Thunk / Flux / Reselect / Hooks / Axios / React-router / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / Fontawesome / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
+  allSkills: 'React / TypeScript / JavaScript / Redux / Thunk / Flux / Reselect / Hooks / Axios / React-router / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / Fontawesome / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
   mySkills: [
     {id:v1(), name: 'React', per: 72},
-    {id:v1(), name: 'Redux', per: 82},
     {id:v1(), name: 'TypeScript', per: 62},
-    {id:v1(), name: 'JavaScript', per: 55},
+    {id:v1(), name: 'JavaScript', per: 68},
+    {id:v1(), name: 'Redux', per: 82},
     {id:v1(), name: 'Axios', per: 85},
     {id:v1(), name: 'Redux-form', per: 73},
     {id:v1(), name: 'Formik', per: 56},
     {id:v1(), name: 'Storybook', per: 55},
-    {id:v1(), name: 'Unit Testing', per: 45},
+    {id:v1(), name: 'Unit Testing', per: 51},
     {id:v1(), name: 'Material UI', per: 68},
     {id:v1(), name: 'Ant Design', per: 53},
     {id:v1(), name: 'Wordpress', per: 71},
     {id:v1(), name: 'Bootstrap', per: 82},
     {id:v1(), name: 'CSS & preprocessing', per: 91},
     {id:v1(), name: 'HTML5', per: 99},
-    {id:v1(), name: 'Git', per: 45},
+    {id:v1(), name: 'Git', per: 61},
   ]
 }
 

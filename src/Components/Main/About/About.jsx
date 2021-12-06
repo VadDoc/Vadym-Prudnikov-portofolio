@@ -4,6 +4,7 @@ import {Title} from "../../common/Title/Title";
 import {PersonalInfo} from "./PersonalInfo/PersonalInfo";
 import {Experience} from "./Experience/Experience";
 import {about} from "../../../assets/content/content";
+import {Education} from "./Experience/Education";
 
 export const About = () => {
   return (
@@ -13,6 +14,7 @@ export const About = () => {
           <PersonalInfo/>
           <Skills/>
           <Experience/>
+          <Education/>
         </div>
     </div>
   )

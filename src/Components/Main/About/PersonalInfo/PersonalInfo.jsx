@@ -1,8 +1,9 @@
 import styles from './Personalinfo.module.scss'
 import mainPhotoMobile from "../../../../assets/images/mainPhotoMobile.png";
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {Button} from "../../../common/Button/Button";
 import {about} from "../../../../assets/content/content"
+import portfolio from "../../../../assets/portfolio/Prudnikov Vadym CV React.pdf"
 
 export const PersonalInfo = () => {
   return (
@@ -20,9 +21,13 @@ export const PersonalInfo = () => {
           ))}
         </ul>
       </div>
-      <NavLink to="/about" activeClassName={styles.active}>
-        <Button title={'Download CV'} icon={'download'}/>
-      </NavLink>
+      {/*<NavLink to="/about" activeClassName={styles.active}>*/}
+      <div className={styles.button}>
+        <Link to={portfolio} target="_blank" download>
+          <Button title={'Download CV'} icon={'download'}/>
+        </Link>
+      </div>
+      {/*</NavLink>*/}
     </div>
   )
 }

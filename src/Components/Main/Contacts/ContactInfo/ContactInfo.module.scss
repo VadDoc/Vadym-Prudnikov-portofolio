@@ -4,6 +4,11 @@
   flex: 0 0 auto;
   width: 33.33333333%;
 
+  a svg,
+  a path {
+    cursor: pointer;
+  }
+
   @media(max-width: 1000px) {
     width: 100%;
   }
