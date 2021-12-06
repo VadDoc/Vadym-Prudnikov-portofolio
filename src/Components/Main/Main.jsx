@@ -8,7 +8,7 @@ import {Contacts} from "./Contacts/Contacts";
 export const Main = () => {
   return (
       <div className={styles.main}>
-        <Route path='/' render={() => <Home name="Home" />} />
+        <Route exact path='/' render={() => <Home name="Home" />} />
         <Route path='/home' render={() => <Home name="Home" />} />
         <Route path='/about' render={() => <About name="About" />} />
         <Route path='/projects' render={() => <Projects name="Projects" />} />
