@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/Vadym-Prudnikov-portofolio/static/css/main.61dda6e9.chunk.css",
-    "main.js": "/Vadym-Prudnikov-portofolio/static/js/main.b6bf1981.chunk.js",
-    "main.js.map": "/Vadym-Prudnikov-portofolio/static/js/main.b6bf1981.chunk.js.map",
-    "runtime-main.js": "/Vadym-Prudnikov-portofolio/static/js/runtime-main.5861d9d4.js",
-    "runtime-main.js.map": "/Vadym-Prudnikov-portofolio/static/js/runtime-main.5861d9d4.js.map",
-    "static/js/2.6488ebd6.chunk.js": "/Vadym-Prudnikov-portofolio/static/js/2.6488ebd6.chunk.js",
-    "static/js/2.6488ebd6.chunk.js.map": "/Vadym-Prudnikov-portofolio/static/js/2.6488ebd6.chunk.js.map",
-    "static/js/3.da6440b0.chunk.js": "/Vadym-Prudnikov-portofolio/static/js/3.da6440b0.chunk.js",
-    "static/js/3.da6440b0.chunk.js.map": "/Vadym-Prudnikov-portofolio/static/js/3.da6440b0.chunk.js.map",
+    "main.css": "/Vadym-Prudnikov-portofolio/static/css/main.55a2b489.chunk.css",
+    "main.js": "/Vadym-Prudnikov-portofolio/static/js/main.dead0e78.chunk.js",
+    "main.js.map": "/Vadym-Prudnikov-portofolio/static/js/main.dead0e78.chunk.js.map",
+    "runtime-main.js": "/Vadym-Prudnikov-portofolio/static/js/runtime-main.5714abdf.js",
+    "runtime-main.js.map": "/Vadym-Prudnikov-portofolio/static/js/runtime-main.5714abdf.js.map",
+    "static/js/2.009b9587.chunk.js": "/Vadym-Prudnikov-portofolio/static/js/2.009b9587.chunk.js",
+    "static/js/2.009b9587.chunk.js.map": "/Vadym-Prudnikov-portofolio/static/js/2.009b9587.chunk.js.map",
+    "static/js/3.ae18afc6.chunk.js": "/Vadym-Prudnikov-portofolio/static/js/3.ae18afc6.chunk.js",
+    "static/js/3.ae18afc6.chunk.js.map": "/Vadym-Prudnikov-portofolio/static/js/3.ae18afc6.chunk.js.map",
     "index.html": "/Vadym-Prudnikov-portofolio/index.html",
-    "static/css/main.61dda6e9.chunk.css.map": "/Vadym-Prudnikov-portofolio/static/css/main.61dda6e9.chunk.css.map",
-    "static/js/2.6488ebd6.chunk.js.LICENSE.txt": "/Vadym-Prudnikov-portofolio/static/js/2.6488ebd6.chunk.js.LICENSE.txt",
+    "static/css/main.55a2b489.chunk.css.map": "/Vadym-Prudnikov-portofolio/static/css/main.55a2b489.chunk.css.map",
+    "static/js/2.009b9587.chunk.js.LICENSE.txt": "/Vadym-Prudnikov-portofolio/static/js/2.009b9587.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Vadym-Prudnikov-portofolio/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/Prudnikov Vadym CV React.463dab67.pdf": "/Vadym-Prudnikov-portofolio/static/media/Prudnikov Vadym CV React.463dab67.pdf",
     "static/media/counter.4e67a079.png": "/Vadym-Prudnikov-portofolio/static/media/counter.4e67a079.png",
     "static/media/mainPhotoMobile.c823271a.png": "/Vadym-Prudnikov-portofolio/static/media/mainPhotoMobile.c823271a.png",
     "static/media/pearlSpa.a58d6e48.png": "/Vadym-Prudnikov-portofolio/static/media/pearlSpa.a58d6e48.png",
@@ -24,9 +25,9 @@
     "static/media/zem-advokat.0b06b1dd.png": "/Vadym-Prudnikov-portofolio/static/media/zem-advokat.0b06b1dd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5861d9d4.js",
-    "static/js/2.6488ebd6.chunk.js",
-    "static/css/main.61dda6e9.chunk.css",
-    "static/js/main.b6bf1981.chunk.js"
+    "static/js/runtime-main.5714abdf.js",
+    "static/js/2.009b9587.chunk.js",
+    "static/css/main.55a2b489.chunk.css",
+    "static/js/main.dead0e78.chunk.js"
   ]
 }
