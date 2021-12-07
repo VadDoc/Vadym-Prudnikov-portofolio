@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Vadym-Prudnikov-portofolio/static/css/main.5ec0c408.chunk.css",
-    "main.js": "/Vadym-Prudnikov-portofolio/static/js/main.76d5b935.chunk.js",
-    "main.js.map": "/Vadym-Prudnikov-portofolio/static/js/main.76d5b935.chunk.js.map",
+    "main.css": "/Vadym-Prudnikov-portofolio/static/css/main.d89eaa3b.chunk.css",
+    "main.js": "/Vadym-Prudnikov-portofolio/static/js/main.b77ca050.chunk.js",
+    "main.js.map": "/Vadym-Prudnikov-portofolio/static/js/main.b77ca050.chunk.js.map",
     "runtime-main.js": "/Vadym-Prudnikov-portofolio/static/js/runtime-main.5714abdf.js",
     "runtime-main.js.map": "/Vadym-Prudnikov-portofolio/static/js/runtime-main.5714abdf.js.map",
     "static/js/2.e4b566b1.chunk.js": "/Vadym-Prudnikov-portofolio/static/js/2.e4b566b1.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.ae18afc6.chunk.js": "/Vadym-Prudnikov-portofolio/static/js/3.ae18afc6.chunk.js",
     "static/js/3.ae18afc6.chunk.js.map": "/Vadym-Prudnikov-portofolio/static/js/3.ae18afc6.chunk.js.map",
     "index.html": "/Vadym-Prudnikov-portofolio/index.html",
-    "static/css/main.5ec0c408.chunk.css.map": "/Vadym-Prudnikov-portofolio/static/css/main.5ec0c408.chunk.css.map",
+    "static/css/main.d89eaa3b.chunk.css.map": "/Vadym-Prudnikov-portofolio/static/css/main.d89eaa3b.chunk.css.map",
     "static/js/2.e4b566b1.chunk.js.LICENSE.txt": "/Vadym-Prudnikov-portofolio/static/js/2.e4b566b1.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Vadym-Prudnikov-portofolio/static/media/Poppins-Regular.8081832f.ttf",
-    "static/media/Prudnikov Vadym CV React.463dab67.pdf": "/Vadym-Prudnikov-portofolio/static/media/Prudnikov Vadym CV React.463dab67.pdf",
+    "static/media/App.scss": "/Vadym-Prudnikov-portofolio/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/Prudnikov Vadym CV Front-end_React_JS.fca29482.pdf": "/Vadym-Prudnikov-portofolio/static/media/Prudnikov Vadym CV Front-end_React_JS.fca29482.pdf",
     "static/media/counter.49fd3218.png": "/Vadym-Prudnikov-portofolio/static/media/counter.49fd3218.png",
     "static/media/mainPhotoMobile.c823271a.png": "/Vadym-Prudnikov-portofolio/static/media/mainPhotoMobile.c823271a.png",
     "static/media/pearlSpa.ebbbdd42.png": "/Vadym-Prudnikov-portofolio/static/media/pearlSpa.ebbbdd42.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.5714abdf.js",
     "static/js/2.e4b566b1.chunk.js",
-    "static/css/main.5ec0c408.chunk.css",
-    "static/js/main.76d5b935.chunk.js"
+    "static/css/main.d89eaa3b.chunk.css",
+    "static/js/main.b77ca050.chunk.js"
   ]
 }
