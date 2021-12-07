@@ -24,10 +24,6 @@
     border: 1px solid #ffb400;
     outline: none!important;
     margin-top: 20px;
-
-    path {
-        //cursor: pointer;
-    }
 }
 
 .button .buttonText {
@@ -35,7 +31,6 @@
     z-index: 2;
     color: #fff;
     transition: all 0.3s ease-out;
-    //cursor: pointer;
 }
 
 .buttonIcon {
@@ -51,12 +46,10 @@
     color: #fff;
     border-radius: 50%;
     background-color: #ffb400;
-    //cursor: pointer;
 }
 
 .buttonIcon svg {
     font-size: 19px;
-    //cursor: pointer;
 }
 
 .button:before {
@@ -71,7 +64,6 @@
     transition: all .3s ease-out;
     background-color: #ffb400;
     box-sizing: border-box;
-    //cursor: pointer;
 }
 
 .button:hover:before {

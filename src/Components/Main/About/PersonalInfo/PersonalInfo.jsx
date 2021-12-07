@@ -3,7 +3,7 @@ import mainPhotoMobile from "../../../../assets/images/mainPhotoMobile.png";
 import {Link} from "react-router-dom";
 import {Button} from "../../../common/Button/Button";
 import {about} from "../../../../assets/content/content"
-import portfolio from "../../../../assets/portfolio/Prudnikov Vadym CV React.pdf"
+import portfolio from "../../../../assets/portfolio/Prudnikov Vadym CV Front-end_React_JS.pdf"
 
 export const PersonalInfo = () => {
   return (

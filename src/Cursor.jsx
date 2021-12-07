@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import './App.css';
+import './App.scss';
 import React from 'react'
 
 const Cursor = () => {
