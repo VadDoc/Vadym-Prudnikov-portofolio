@@ -7,6 +7,7 @@ import royalImg from '../images/royal-stone.png'
 import counterImg from '../images/counter.png'
 import portfolioImg from '../images/portfolio.png'
 import todolistMUIImg from '../images/todolistMUI.png'
+import todolist from '../images/todolist.png'
 
 export const home = {
   title: [
@@ -144,14 +145,14 @@ export const projects = {
   myProjects: [
     {
       id: v1(),
-      title: 'Todolist MUI API',
+      title: 'Todo list MUI API',
       img: todolistMUIImg,
-      siteName: 'Todolist MUI API',
+      siteName: 'Todo list MUI API',
       siteLink: 'https://vaddoc.github.io/Todolists-MUI/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Todolists-MUI',
       languages: ' React / Redux / React-redux / Thunk / TypeScript / Axios / Rest API / Formik / React-router / ' +
-        ' Material UI / Unit Test / Storybook / CSS / HTML / Git',
+        ' Material UI / Unit Test / Storybook / CSS / HTML / NodeJS / Git',
     },
     {
       id: v1(),
@@ -166,14 +167,14 @@ export const projects = {
     },
     {
       id: v1(),
-      title: 'Todolist',
-      img: socialImg,
-      siteName: 'Todolist',
-      siteLink: 'https://vaddoc.github.io/Social-Network/',
+      title: 'Todo list',
+      img: todolist,
+      siteName: 'Todo list',
+      siteLink: 'https://vaddoc.github.io/Todo-List/',
       codeName: 'github.com',
-      codeLink: 'https://github.com/VadDoc/Social-Network',
-      languages: ' React / Redux / TypeScript / Axios / Redux-form / React-router / ' +
-        ' Unit Test / Storybook / SCSS / HTML / Git',
+      codeLink: 'https://github.com/VadDoc/Todo-List',
+      languages: ' React / Redux / TypeScript / Redux-form / React-router / ' +
+        ' Unit Test / Storybook / SCSS / HTML / NodeJS / Git',
     },
     {
       id: v1(),
