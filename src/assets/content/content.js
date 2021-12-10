@@ -119,7 +119,7 @@ export const about = {
     {id: v1(), title: 'GitHub: ', value: [<a href={contacts.github} target="_blank" rel="noreferrer">github.com</a>]},
     {id: v1(), title: 'Languages: ', value: ['Ukrainian, Russian,', 'English (intermediate in progress)']},
   ],
-  allSkills: 'JavaScript / TypeScript / React / Redux / Thunk / Flux / Reselect / Hooks / Axios / React-router / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / Fontawesome / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
+  allSkills: 'JavaScript / TypeScript / React / Redux / React-redux / Thunk / Flux / Reselect / Hooks / Axios / React-router / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / Fontawesome / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
   mySkills: [
     {id:v1(), name: 'JavaScript', per: 68},
     {id:v1(), name: 'TypeScript', per: 62},
