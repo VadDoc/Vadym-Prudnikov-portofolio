@@ -6,6 +6,7 @@ import alpImg from '../images/promAlp.png'
 import royalImg from '../images/royal-stone.png'
 import counterImg from '../images/counter.png'
 import portfolioImg from '../images/portfolio.png'
+import todolistMUIImg from '../images/todolistMUI.png'
 
 export const home = {
   title: [
@@ -143,26 +144,37 @@ export const projects = {
   myProjects: [
     {
       id: v1(),
+      title: 'Todolist MUI API',
+      img: todolistMUIImg,
+      siteName: 'Todolist MUI API',
+      siteLink: 'https://vaddoc.github.io/Todolists-MUI/',
+      codeName: 'github.com',
+      codeLink: 'https://github.com/VadDoc/Todolists-MUI',
+      languages: ' React / Redux / React-redux / Thunk / TypeScript / Axios / Rest API / Formik / React-router / ' +
+        ' Material UI / Unit Test / Storybook / CSS / HTML / Git',
+    },
+    {
+      id: v1(),
       title: 'Social Network',
       img: socialImg,
       siteName: 'Social-Network',
       siteLink: 'https://vaddoc.github.io/Social-Network/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Social-Network',
-      languages: ' React / Redux / Thunk / TypeScript / Axios / Rest API / Reselect / Redux-form / React-router ' +
+      languages: ' React / Redux / React-redux / Thunk / TypeScript / Axios / Rest API / Reselect / Redux-form / React-router ' +
         ' Unit Test / Storybook / SCSS / HTML / NodeJS / Git',
     },
-    // {
-    //   id: v1(),
-    //   title: 'Todolist',
-    //   img: socialImg,
-    //   siteName: 'Todolist',
-    //   siteLink: 'https://vaddoc.github.io/Social-Network/',
-    //   codeName: 'github.com',
-    //   codeLink: 'https://github.com/VadDoc/Social-Network',
-    //   languages: ' React / Redux / Thunk / TypeScript / Axios / Rest API / Redux-form / React-router / ' +
-    //     ' Unit Test / Storybook / SCSS / HTML / Git',
-    // },
+    {
+      id: v1(),
+      title: 'Todolist',
+      img: socialImg,
+      siteName: 'Todolist',
+      siteLink: 'https://vaddoc.github.io/Social-Network/',
+      codeName: 'github.com',
+      codeLink: 'https://github.com/VadDoc/Social-Network',
+      languages: ' React / Redux / TypeScript / Axios / Redux-form / React-router / ' +
+        ' Unit Test / Storybook / SCSS / HTML / Git',
+    },
     {
       id: v1(),
       title: 'Portfolio',
@@ -171,7 +183,7 @@ export const projects = {
       siteLink: 'https://vaddoc.github.io/Vadym-Prudnikov-portofolio/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Vadym-Prudnikov-portofolio',
-      languages: 'React / JavaScript / React-router / Fontawesome / SCSS / HTML / NodeJS / Git / Photoshop'
+      languages: 'React / JavaScript / React-router / Fontawesome / SCSS / HTML / NodeJS / EmailJS / Git / Photoshop'
     },
     {
       id: v1(),
@@ -181,7 +193,7 @@ export const projects = {
       siteLink: 'https://vaddoc.github.io/Counter/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Counter',
-      languages: 'React / Redux / TypeScript / CSS / HTML / NodeJS / Git',
+      languages: 'React / Redux / React-redux / TypeScript / CSS / HTML / NodeJS / Git',
     },
     {
       id: v1(),
