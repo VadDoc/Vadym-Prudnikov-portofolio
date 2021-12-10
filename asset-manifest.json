@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Vadym-Prudnikov-portofolio/static/css/main.d89eaa3b.chunk.css",
-    "main.js": "/Vadym-Prudnikov-portofolio/static/js/main.b77ca050.chunk.js",
-    "main.js.map": "/Vadym-Prudnikov-portofolio/static/js/main.b77ca050.chunk.js.map",
+    "main.js": "/Vadym-Prudnikov-portofolio/static/js/main.3ede1331.chunk.js",
+    "main.js.map": "/Vadym-Prudnikov-portofolio/static/js/main.3ede1331.chunk.js.map",
     "runtime-main.js": "/Vadym-Prudnikov-portofolio/static/js/runtime-main.5714abdf.js",
     "runtime-main.js.map": "/Vadym-Prudnikov-portofolio/static/js/runtime-main.5714abdf.js.map",
     "static/js/2.e4b566b1.chunk.js": "/Vadym-Prudnikov-portofolio/static/js/2.e4b566b1.chunk.js",
@@ -21,6 +21,7 @@
     "static/media/promAlp.ca81d974.png": "/Vadym-Prudnikov-portofolio/static/media/promAlp.ca81d974.png",
     "static/media/royal-stone.02298776.png": "/Vadym-Prudnikov-portofolio/static/media/royal-stone.02298776.png",
     "static/media/social_network.34fa6c45.png": "/Vadym-Prudnikov-portofolio/static/media/social_network.34fa6c45.png",
+    "static/media/todolistMUI.fcd41efe.png": "/Vadym-Prudnikov-portofolio/static/media/todolistMUI.fcd41efe.png",
     "static/media/vaddoc4.dc306514.png": "/Vadym-Prudnikov-portofolio/static/media/vaddoc4.dc306514.png",
     "static/media/zem-advokat.30e0726c.png": "/Vadym-Prudnikov-portofolio/static/media/zem-advokat.30e0726c.png"
   },
@@ -28,6 +29,6 @@
     "static/js/runtime-main.5714abdf.js",
     "static/js/2.e4b566b1.chunk.js",
     "static/css/main.d89eaa3b.chunk.css",
-    "static/js/main.b77ca050.chunk.js"
+    "static/js/main.3ede1331.chunk.js"
   ]
 }
