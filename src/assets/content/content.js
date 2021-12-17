@@ -119,7 +119,7 @@ export const about = {
     {id: v1(), title: 'GitHub: ', value: [<a href={contacts.github} target="_blank" rel="noreferrer">github.com</a>]},
     {id: v1(), title: 'Languages: ', value: ['Ukrainian, Russian,', 'English (intermediate in progress)']},
   ],
-  allSkills: 'JavaScript / TypeScript / React / Redux / React-redux / Thunk / Flux / Reselect / Hooks / Axios / React-router / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / Fontawesome / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
+  allSkills: 'JavaScript / TypeScript / React / Redux / React-redux / Redux-toolkit / Thunk / Flux / Reselect / Hooks / Axios / React-router / Rest API / Redux-form / Formik / Material UI / Ant Design / Unit Test / Storybook / AJAX / JSON / Wordpress / Bootstrap / Grid / Flexbox / Fontawesome / SCSS / SASS / LESS / module CSS / CSS3 / HTML5 / Git / NodeJS / MySQL / Photoshop',
   mySkills: [
     {id:v1(), name: 'JavaScript', per: 68},
     {id:v1(), name: 'TypeScript', per: 62},
@@ -151,7 +151,7 @@ export const projects = {
       siteLink: 'https://vaddoc.github.io/Todolists-MUI/',
       codeName: 'github.com',
       codeLink: 'https://github.com/VadDoc/Todolists-MUI',
-      languages: ' React / Redux / React-redux / Thunk / TypeScript / Axios / Rest API / Formik / React-router / ' +
+      languages: ' React / Redux / React-redux / Redux-toolkit / Thunk / TypeScript / Axios / Rest API / Formik / React-router / ' +
         ' Material UI / Unit Test / Storybook / CSS / HTML / NodeJS / Git',
     },
     {
