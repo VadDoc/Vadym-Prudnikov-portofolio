@@ -8,6 +8,9 @@ import counterImg from '../images/counter.png'
 import portfolioImg from '../images/portfolio.png'
 import todolistMUIImg from '../images/todolistMUI.png'
 import todolist from '../images/todolist.png'
+import currencyConverterImg from '../images/currencyConverterImg.png'
+import cardsImg from '../images/cardsImg.png'
+
 
 export const home = {
   title: [
@@ -143,6 +146,28 @@ export const about = {
 export const projects = {
   titleText: ['my', 'projects', 'works'],
   myProjects: [
+    {
+      id: v1(),
+      title: 'Converter',
+      img: currencyConverterImg,
+      siteName: 'Currency Converter Bank App',
+      siteLink: 'https://vaddoc.github.io/Currency-Converter-Bank-app/',
+      codeName: 'github.com',
+      codeLink: 'https://github.com/VadDoc/Currency-Converter-Bank-app',
+      languages: ' React / Redux / React-redux / Thunk / TypeScript / Axios / Rest API / React-router-dom / ' +
+        ' / SCSS / HTML / NodeJS / Git',
+    },
+    {
+      id: v1(),
+      title: 'Cards',
+      img: cardsImg,
+      siteName: 'Cards',
+      siteLink: 'https://vaddoc.github.io/Cards/',
+      codeName: 'github.com',
+      codeLink: 'https://github.com/VadDoc/Cards',
+      languages: ' React / Redux / React-redux / Thunk / TypeScript / Axios / Rest API / React-router-dom / ' +
+        ' / CSS / HTML / NodeJS / Git',
+    },
     {
       id: v1(),
       title: 'Todo list MUI API',
